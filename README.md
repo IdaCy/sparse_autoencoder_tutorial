@@ -33,6 +33,10 @@ Open the Jupyter notebook for tests:
 
     jupyter notebook notebooks/tests.ipynb
 
+6. Experiment with it!
+    
+    E.g. - Try chaing training epochs.
+
 In the notebook, you can:
 - Visualize encoded representations.
 - Compare original and reconstructed data to see the effects of sparsity.
