@@ -4,7 +4,9 @@ This project teaches the basics of sparse autoencoders and how to apply them to 
 
 ## Setup
 
-1. Clone the repository and navigate into it:
+1. Get repository
+
+Clone the repository and navigate into it:
 
     git clone https://github.com/your-username/sparse_autoencoder_tutorial.git
     cd sparse_autoencoder_tutorial
