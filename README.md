@@ -1,6 +1,6 @@
 # Sparse Autoencoder Tutorial
 
-This project teaches the basics of sparse autoencoders and how to apply them to transformer neuron activations.
+This repository provides a guide for implementing and training a **sparse autoencoder** using PyTorch.
 
 ## Setup
 

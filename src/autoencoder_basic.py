@@ -1,11 +1,9 @@
-# src/autoencoder.py
-
 import torch
 import torch.nn as nn
 
-class SparseAutoencoder(nn.Module):
+class BasicSparseAutoencoder(nn.Module):
     def __init__(self, input_dim=100, hidden_dim=20):
-        super(SparseAutoencoder, self).__init__()
+        super(BasicSparseAutoencoder, self).__init__()
         self.encoder = nn.Sequential(
             nn.Linear(input_dim, hidden_dim),
             nn.ReLU()
@@ -14,7 +12,7 @@ class SparseAutoencoder(nn.Module):
             nn.Linear(hidden_dim, input_dim),
             nn.Sigmoid()
         )
-    
+
     def forward(self, x):
         encoded = self.encoder(x)
         decoded = self.decoder(encoded)
